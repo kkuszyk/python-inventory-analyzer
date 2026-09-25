@@ -13,3 +13,13 @@ print(f"Price: {price}")
 stock_value = quantity * price
 
 print(f"Stock value: {stock_value}")
+
+def calculate_stock_value(quantity, price):
+
+    output = quantity * price
+
+    print(output)
+
+calculate_stock_value(20, 100)
+
+
