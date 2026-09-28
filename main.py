@@ -14,10 +14,15 @@ stock_value = quantity * price
 
 print(f"Stock value: {stock_value}")
 
-def calculate_stock_value(quantity, price):
+assortment = ['Laptop', 'Mouse', 'Keyboard', 'Monitor', 'Headphones']
 
-    return quantity * price
+for product in assortment:
+    print(product)
 
-print(calculate_stock_value(20, 100))
+quantities = [15, 8, 23, 5, 12]
 
+prices = [100, 50, 25, 200, 80]
 
+for qty in quantities:
+    print(f"Quantity: {qty + 5}")
+    print("Stock checked.")
